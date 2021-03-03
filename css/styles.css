@@ -96,15 +96,15 @@ body {
 /*===========END COMPONENT==========*/
 
 /*===========HEADER==========*/
-.navigation-link {
+.nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--nav-color);
 }
-.navigation-link:hover,
-.navigation-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--second-color);
 }
 .current {
@@ -180,7 +180,7 @@ body {
 .team {
   background-color: var(--team-background);
 }
-.team-list {
+.team-lists {
   text-align: center;
   columns: 4;
 }
