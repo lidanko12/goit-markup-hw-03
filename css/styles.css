@@ -96,15 +96,15 @@ body {
 /*===========END COMPONENT==========*/
 
 /*===========HEADER==========*/
-.nav-link {
+.item-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--nav-color);
 }
-.nav-link:hover,
-.nav-link:focus {
+.item-link:hover,
+.item-link:focus {
   color: var(--second-color);
 }
 .current {
@@ -160,7 +160,7 @@ body {
   color: var(--nav-color);
 }
 
-.banefits-description {
+.features-desc {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -170,7 +170,7 @@ body {
 /*===========END FEATURES==========*/
 
 /*===========DOING==========*/
-.doing-list {
+.doing-lists {
   columns: 3;
 }
 
@@ -184,7 +184,7 @@ body {
   text-align: center;
   columns: 4;
 }
-.team-members {
+.team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -192,7 +192,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--nav-color);
 }
-.member-discription {
+.team-desc {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -207,7 +207,7 @@ body {
   overflow: auto;
   background-color: var(--second-background);
 }
-.contact-list-link {
+.contact-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -215,15 +215,15 @@ body {
   color: var(--main-color);
 }
 
-.contact-list-item {
+.contact-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
-.contact-list-link:hover,
-.contact-list-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--second-color);
 }
 /*=========== END FOOTER==========*/
