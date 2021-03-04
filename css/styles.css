@@ -112,8 +112,6 @@ body {
 
 /*===========HEADER==========*/
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
   border: 1px solid #ececec;
 }
 .header .container {
@@ -148,6 +146,8 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
