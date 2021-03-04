@@ -263,6 +263,8 @@ body {
 
 /*===========OUR TEAM==========*/
 .team {
+  padding-top: 94px;
+
   background-color: var(--team-background);
 }
 
