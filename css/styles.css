@@ -26,6 +26,7 @@ img {
   --second-color: #2196f3;
   --light-theme: #000000;
   --tel-link-color: #757575;
+  --border-color: #eeeeee;
   --footer-link: rgba(255, 255, 255, 0.6);
 }
 
@@ -78,6 +79,7 @@ body {
 }
 
 .modal-btn {
+  min-width: 200px;
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
@@ -113,6 +115,7 @@ body {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
+  border: 1px solid #ececec;
 }
 .header .container {
   display: flex;
@@ -123,6 +126,7 @@ body {
   align-items: center;
 }
 .container {
+  align-items: center;
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
@@ -188,11 +192,18 @@ body {
 
 /*===========HERO==========*/
 .hero {
+  display: flex;
+  align-items: center;
   background-color: var(--second-background);
+  text-align: center;
+  color: var(--main-color);
 }
+.hero .container {
+  padding: 200px 252px;
+  text-align: center;
+}
+
 .hero-title {
-  padding-top: 200px;
-  padding-bottom: 280px;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -278,7 +289,7 @@ body {
   color: var(--nav-color);
 }
 .desc {
-  background: #ffffff;
+  background: var(--main-color);
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 94px;
 }
@@ -328,10 +339,42 @@ body {
 /*=========== END FOOTER==========*/
 
 /*===========PORTFOLIO MENU==========*/
+.portfolio-menu {
+  padding-bottom: 94px;
+  padding-bottom: 94px;
+}
+.btn-lists {
+  display: flex;
+  align-items: center;
+  padding-top: 94px;
+  justify-content: center;
+}
+
+.btn-item:not(:last-child) {
+  margin-right: 8px;
+  justify-content: center;
+}
+
 .portfolio-lists {
-  columns: 3;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: 30px;
+}
+.portfolio-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.portfolio-text {
+  padding: 20px 24px;
+  background: var(--main-color);
+  border: 1px solid var(--border-color);
+  border-top: none;
 }
 .btn {
+  min-width: 84px;
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
